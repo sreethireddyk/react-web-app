@@ -21,7 +21,6 @@ function HomePage() {
         </select>
 
         <input type="text" placeholder="Enter City" />
-
         <button>Search</button>
       </section>
 
@@ -46,7 +45,6 @@ function HomePage() {
 
       {/* PROPERTY GRID */}
       <section className="property-grid">
-        
         <div className="property-card">
           <img src="https://via.placeholder.com/400x250" alt="Apartment" />
           <span className="tag">For Sale</span>
@@ -73,10 +71,10 @@ function HomePage() {
           <p className="location">Gachibowli</p>
           <button>View Details</button>
         </div>
-
       </section>
     </div>
   );
 }
 
 export default HomePage;
+
